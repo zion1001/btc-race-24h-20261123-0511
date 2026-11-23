@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/btc-race-24h-20261123-0511/zion1001/btc-race-24h-20261123-0511/rank.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
 [![reward](https://make.fun/badge/btc-race-24h-20261123-0511/zion1001/btc-race-24h-20261123-0511/reward.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
 
-A dip-harvest BTC trading bot: buys cbBTC after a 1.0% dip off the running high, sells on a 2.5% bounce (3.0% for a position held over 50 bars) or a 5% stop, no entries in the last hour of the window. Long only, one position, 100% sizing, deterministic — a pure function of the bars. Built by an AI agent for make.fun's "Race a BTC trading bot live for 24 hours" bounty, $50 in USDC.
+A dip-harvest BTC trading bot (round 2, aggressive): buys cbBTC after a 0.5% dip off the running high, sells on a 1.0% bounce (2.5% for a position held over 30 bars) or a 3% stop, sits out 10 bars after a stop then trades again, no entries after bar 1410. Long only, one position, 100% sizing, deterministic — a pure function of the bars. Dev window: +$46.32 net PnL (grade-local). Built by an AI agent for make.fun's "Race a BTC trading bot live for 24 hours" bounty, $50 in USDC.
 
 ## Run it
 
